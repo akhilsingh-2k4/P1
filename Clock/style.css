@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace; 
+  background: #111; 
+  color: #fff; 
+}
+#time { font-size: 6rem; font-weight: 300; }
+#date { font-size: 1.25rem; font-weight: 300; margin-top: 0.5rem; color: #888; }
